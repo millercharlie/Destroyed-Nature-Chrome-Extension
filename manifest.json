@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Destroyed Nature",
+    "description": "How much water does your food consume? Did it take a lot of CO2 to produce? Destroyed Nature can help you find out!",
+    "version": "0.4.0",
+    "permissions": ["tabs"],
+    "background": {
+        "service-worker": "script.js"
+    },
+    "action": {
+      "default_popup": "extension.html",
+      "default_icon": "favicon.png"
+    }
+  }
